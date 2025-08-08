@@ -2,7 +2,7 @@
 
 QuickAI is a **Software as a Service (SaaS)** platform powered by AI, offering tools for content creation, image editing, and professional document review — all in one place.
 
-![QuickAI Banner](assets/logo.svg)  
+![QuickAI Banner](RapidAI\client\src\assets\logo.svg)
 
 ## 🚀 Features
 - **Blog Title Generation** – Get catchy and SEO-friendly blog titles.
