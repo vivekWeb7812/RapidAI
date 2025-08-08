@@ -9,13 +9,15 @@ QuickAI is a **Software as a Service (SaaS)** platform powered by AI, offering t
 - **Background Removal** – Remove image backgrounds instantly.
 - **Object Removal** – Erase unwanted objects from images.
 - **Resume Review** – AI-powered resume suggestions for better job opportunities.
+- - **Community** – Upload your creations on community.
 
 ## 🛠 Tech Stack
 - **Frontend:** React.js
 - **Backend:** Express.js (Node.js)
+- - **Bundler Tool:** VITE
 - **Database:** PostgreSQL
-- **AI Models:** OpenAI API & other ML services
-- **Hosting:** Vercel (Frontend) & Render/other (Backend)
+- **AI Models:** Gemini API,ClipDrop API
+- **Hosting:** Vercel
 
 ## 📦 Installation
 
@@ -36,23 +38,41 @@ npm install
 ```
 
 ## ⚙️ Environment Variables
+Create a `.env` file in the `client` folder and add:
+
+```
+
+VITE_CLERK_PUBLISHABLE_KEY="provide_your_key"
+
+VITE_BASE_URL=http://localhost:3000
+
+```
+
 Create a `.env` file in the `server` folder and add:
 
 ```
-PORT=5000
-DATABASE_URL=your_postgresql_url
-OPENAI_API_KEY=your_openai_api_key
+
+DATABASE_URL ="provide_your_db_url"
+CLERK_PUBLISHABLE_KEY="provide_your_key"
+CLERK_SECRET_KEY="provide_your_key"
+GEMINI_API_KEY="provide_your_key"
+CLIPDROP_API_KEY="provide_your_key"
+
+CLOUDINARY_CLOUD_NAME="provide_name"
+CLOUDINARY_API_KEY="provide_your_key"
+CLOUDINARY_API_SECRET="provide_your_key"
+
 ```
 
 ## ▶️ Usage
 ```bash
 # Start backend
 cd server
-npm start
+npm run dev
 
 # Start frontend
 cd ../client
-npm start
+npm run server
 ```
 
 Access the app at: `http://localhost:3000`
