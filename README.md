@@ -79,7 +79,15 @@ npm run server
 
 Access the app at: `http://localhost:3000`
 
+## ▶️ UI Design
 ![QuickAI Banner](client/src/assets/home.png)
-
+![QuickAI Banner](client/src/assets/home1.png)
+![QuickAI Banner](client/src/assets/title.png)
+![QuickAI Banner](client/src/assets/article.png)
+![QuickAI Banner](client/src/assets/img.png)
+![QuickAI Banner](client/src/assets/bg.png)
+![QuickAI Banner](client/src/assets/obj.png)
+![QuickAI Banner](client/src/assets/resume.png)
+![QuickAI Banner](client/src/assets/community.png)
 ## 📜 License
 This project is licensed under the **MIT License** – you are free to use, modify, and distribute it.
