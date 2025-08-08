@@ -9,12 +9,12 @@ QuickAI is a **Software as a Service (SaaS)** platform powered by AI, offering t
 - **Background Removal** – Remove image backgrounds instantly.
 - **Object Removal** – Erase unwanted objects from images.
 - **Resume Review** – AI-powered resume suggestions for better job opportunities.
-- - **Community** – Upload your creations on community.
+- **Community** – Upload your creations on community.
 
 ## 🛠 Tech Stack
 - **Frontend:** React.js
 - **Backend:** Express.js (Node.js)
-- - **Bundler Tool:** VITE
+- **Bundler Tool:** VITE
 - **Database:** PostgreSQL
 - **AI Models:** Gemini API,ClipDrop API
 - **Hosting:** Vercel
