@@ -81,7 +81,8 @@ Access the app at: `http://localhost:3000`
 
 ## ▶️ UI Design
 ![QuickAI Banner](client/src/assets/home.png)
-![QuickAI Banner](client/src/assets/home1.png)
+![QuickAI Banner](client/src/assets/home2.png)
+![QuickAI Banner](client/src/assets/db.png)
 ![QuickAI Banner](client/src/assets/title.png)
 ![QuickAI Banner](client/src/assets/article.png)
 ![QuickAI Banner](client/src/assets/img.png)
