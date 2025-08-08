@@ -79,5 +79,7 @@ npm run server
 
 Access the app at: `http://localhost:3000`
 
+![QuickAI Banner](client/src/assets/home.png)
+
 ## 📜 License
 This project is licensed under the **MIT License** – you are free to use, modify, and distribute it.
